@@ -1,0 +1,57 @@
+.basic {
+  border-radius: 12px;
+  height: 100%;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: start;
+  text-transform: uppercase;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.title_div {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.input__title {
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 2px solid #8bbccc;
+}
+
+.input__title:focus {
+  outline: none;
+}
+
+.start_end {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  color: white;
+  background: none;
+  border: none;
+  background-color: #7895b2;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
